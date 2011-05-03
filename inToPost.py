@@ -1,3 +1,6 @@
+# 
+# Converts infix notation to prefix... in brutally naive way
+#
 import re
 input_str = '1*2+3+4*5' 
 num = re.compile(r'^[0-9]+$')
